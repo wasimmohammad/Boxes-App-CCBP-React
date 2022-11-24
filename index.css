@@ -1,0 +1,59 @@
+/* Write your code here. */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0px;
+}
+
+.boxes-main-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.box-heading {
+  font-family: "roboto";
+  font-weight: 500;
+}
+
+.boxes-container {
+  display: flex;
+  flex-direction: row;
+  width: 90%;
+  justify-content: space-around;
+}
+.box-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.box-title {
+  color: black;
+}
+
+.small-box {
+  background-color: #fbbf24;
+  height: 80px;
+  width: 80px;
+  margin: 20px;
+}
+
+.medium-box {
+  background-color: #38bdf8;
+  height: 350px;
+  width: 150px;
+  margin: 20px;
+}
+
+.large-box {
+  background-color: #ec4899;
+  height: 450px;
+  width: 200px;
+  margin: 20px;
+}
