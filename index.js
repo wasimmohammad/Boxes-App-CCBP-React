@@ -1,7 +1,7 @@
 const Box = (props) => {
   //  Write your code here.
   const { className, message } = props;
-  const boxContainerElement = "box-container ${className}";
+  const boxContainerElement = `box-container ${className}`;
 
   return (
     <div className={boxContainerElement}>
